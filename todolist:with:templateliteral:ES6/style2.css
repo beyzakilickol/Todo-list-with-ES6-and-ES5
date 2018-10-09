@@ -1,0 +1,70 @@
+body{
+  text-align: center;
+  background-color: #ffd11a;
+
+}
+.input{
+  margin-top: 10%;
+}
+.container{
+  display:flex;
+  flex-direction: column;
+  margin-top: 2%;
+
+}
+.add{
+  width:100px;
+  height:30px;
+  background-color: #ff9900;
+  border-radius:8%;
+
+}
+.text-box{
+  width:200px;
+  height:30px;
+  border-style: solid;
+  border-width: thin;
+}
+.pending-tasks{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+
+}
+.completed-tasks{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pendingTaskDiv{
+  background-color: #ff9900;
+  display: flex;
+  align-items: center;
+  width:60%;
+  height:5%;
+  margin-bottom: 10px;
+  position: relative;
+}
+.deleteButton{
+  position: absolute;
+  right: 2px;
+  background-color: #ffebcc;
+  top:5px;
+
+}
+.checkBox{
+  transform: scale(1.5);
+  margin-left: 8px;
+}
+/*-----------------------*/
+.taskDiv{
+  display:flex;
+  position: relative;
+  background-color: #ff9900;
+  align-items: center;
+  width:60%;
+  height:5%;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,34 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>
+    ToDo List
+  </title>
+</head>
+<body>
+  <h1>MY TO DO LIST</h1>
+<div class="input">
+<label><strong>Enter task to add</strong></label>
+  <input  id="textBox" class="text-box" type="text" onfocus="this.value=''" value="Type your task here"/>
+  <button id="add-button" class="add">Add</button>
+
+</div>
+<div class="container">
+  <div id="pendingTasks" class="pending-tasks">
+    <h2>Pending Tasks</h2>
+    <h4 style="margin-top: -20px;">Check the box when you complete the task!</h4>
+
+  </div>
+  <div id="completedTasks" class=completed-tasks>
+    <h2>Completed Tasks</h2>
+    <h4 style="margin-top: -20px;">Uncheck the box if you want to move the task to pending list!</h4>
+
+  </div>
+
+</div>
+  <script type="text/javascript" src="todowithtemplateliteral.js"></script>
+</body>
+</html>
